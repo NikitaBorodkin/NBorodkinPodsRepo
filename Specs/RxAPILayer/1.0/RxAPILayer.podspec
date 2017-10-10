@@ -113,9 +113,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.frameworks  = "Alamofire", "AlamofireImage", "RxSwift"
-
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks  = "Alamofire", "AlamofireImage", "RxSwift"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
