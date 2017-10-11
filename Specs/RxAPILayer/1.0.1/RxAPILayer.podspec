@@ -129,6 +129,7 @@ s.requires_arc = true
 
 # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
+s.dependency "RxCocoa", "~> 4.0.0-rc.0"
 s.dependency "Alamofire", "~> 4.5"
 s.dependency "AlamofireImage", "~> 3.3"
 s.dependency "RxSwift", "~> 4.0.0-alpha.1"
