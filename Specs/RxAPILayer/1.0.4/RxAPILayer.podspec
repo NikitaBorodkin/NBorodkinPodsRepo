@@ -62,7 +62,7 @@ s.author             = { "Nikita Borodkin" => "nikita.borodkeen@gmail.com" }
 #  the deployment target. You can optionally include the target after the platform.
 #
 
-s.platform     = :ios, "11.0"
+#s.platform     = :ios, "11.0"
 s.platform     = :osx, "10.13"
 
 #  When using multiple platforms
