@@ -63,11 +63,10 @@ s.author             = { "Nikita Borodkin" => "nikita.borodkeen@gmail.com" }
 #
 
 #s.platform     = :ios, "11.0"
-s.platform     = :osx, "10.13"
 
 #  When using multiple platforms
-# s.ios.deployment_target = "5.0"
-# s.osx.deployment_target = "10.7"
+s.ios.deployment_target = "11.0"
+s.osx.deployment_target = "10.13"
 # s.watchos.deployment_target = "2.0"
 # s.tvos.deployment_target = "9.0"
 
@@ -114,7 +113,8 @@ s.source_files  = "RxAPILayer/**/*.{swift}"
 #  the lib prefix of their name.
 #
 
-s.frameworks  = "Foundation", "UIKit"
+s.osx.frameworks  = "Foundation", "AppKit"
+s.ios.frameworks  = "Foundation", "UIKit"
 
 # s.library   = "iconv"
 # s.libraries = "iconv", "xml2"
