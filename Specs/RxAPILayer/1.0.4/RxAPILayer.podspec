@@ -62,11 +62,11 @@ s.author             = { "Nikita Borodkin" => "nikita.borodkeen@gmail.com" }
 #  the deployment target. You can optionally include the target after the platform.
 #
 
-#s.platform     = :ios, "11.0"
+s.platform     = :osx, "10.13"
 
 #  When using multiple platforms
-s.ios.deployment_target = "11.0"
-s.osx.deployment_target = "10.13"
+# s.ios.deployment_target = "11.0"
+# s.osx.deployment_target = "10.13"
 # s.watchos.deployment_target = "2.0"
 # s.tvos.deployment_target = "9.0"
 
