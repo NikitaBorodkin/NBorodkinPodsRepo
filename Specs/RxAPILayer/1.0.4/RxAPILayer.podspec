@@ -51,7 +51,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 #  profile URL.
 #
 
-s.author             = { "Nikita Borodkin" => "nikita.borodkin@noveogroup.com" }
+s.author             = { "Nikita Borodkin" => "nikita.borodkeen@gmail.com" }
 # Or just: s.author    = "Nikita Borodkin"
 # s.authors            = { "Nikita Borodkin" => "nikita.borodkin@noveogroup.com" }
 # s.social_media_url   = "http://twitter.com/Nikita Borodkin"
