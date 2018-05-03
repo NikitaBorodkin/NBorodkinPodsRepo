@@ -63,6 +63,7 @@ s.author             = { "Nikita Borodkin" => "nikita.borodkeen@gmail.com" }
 #
 
 s.platform     = :ios, "11.0"
+s.platform     = :osx, "10.13"
 
 #  When using multiple platforms
 # s.ios.deployment_target = "5.0"
